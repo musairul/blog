@@ -121,7 +121,7 @@ One teammate trained our own model on detecting fossils and finetuned it, result
 
 ### 2:00am - LOCKED IN
 
-By this point, my other team members were asleep. The frontend wasnt working, the app doesnt even fit the brief of "travelling through time", and time was running out. Frontend is pain and wasnt even working so I just got chatgpt to generate one. I integrated it with the fossil detection ML algorithm and the AI features. It worked surprisingly well. You could take a picture of a fossil and it would detect it very accurately!
+By this point, my other team members were asleep. The frontend wasnt working, the app doesnt even fit the brief of "travelling through time", and time was running out. Frontend is pain and wasnt even working so I just got chatgpt to generate one (AI was allowed in this hackathon). I integrated it with the fossil detection ML algorithm and the AI features. It worked surprisingly well. You could take a picture of a fossil and it would detect it very accurately!
 
 {% include image.html url="images/fossileyes.png" description="Image of fossileyes analysing a fossil" %}
 
