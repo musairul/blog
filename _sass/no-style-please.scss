@@ -59,6 +59,14 @@ hr {
   &:after { content: attr(data-content) '/////' }
 }
 
+.caption{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
 table { width: 100%; }
 
 table, th, td {
