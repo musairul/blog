@@ -121,7 +121,7 @@ One teammate trained our own model on detecting fossils and finetuned it, result
 
 ### 2:00am - LOCKED IN
 
-By this point, my other team members were asleep. The frontend wasnt working, the app doesnt even fit the brief of "travelling through time", and time was running out. Frontend is pain and wasnt even working so I just got chatgpt to generate one (AI was allowed in this hackathon). I integrated it with the fossil detection ML algorithm and the AI features. It worked surprisingly well. You could take a picture of a fossil and it would detect it very accurately!
+By this point, my other team members were asleep. The frontend wasnt working, the app doesnt even fit the brief of "travelling through time", and time was running out. Frontend wasnt even working so I just got chatgpt to fix the bugs and add cool animations (AI was allowed in this hackathon). I integrated it with the fossil detection ML algorithm and the AI features. It worked surprisingly well. You could take a picture of a fossil and it would detect it very accurately!
 
 {% include image.html url="images/fossileyes.png" description="Image of fossileyes analysing a fossil" %}
 
@@ -131,7 +131,7 @@ By this point, my other team members were asleep. The frontend wasnt working, th
 
 Its morning, everyone was awake again and we had some sort of complete app. Right? Wrong. All of a sudden, the OpenAI API stopped working. WTH??? This was literally the worst time for this to happen.
 
-Fine, forget the AI features. We realised in the morning that we qualify for literally any of the challenges set by the sponsors, or even the main theme of the hackthon. So thats what we tried to do.
+Fine, forget the AI features. We realised in the morning that we dont qualify for literally any of the challenges set by the sponsors, or even the main theme of the hackthon. So thats what we tried to do.
 
 I integrated Auth0 into the app while my teammate tried to integrate Firebase as a backend. We realised Firebase also has auth, so I deleted Auth0 from the app and focused on Firebase. Except firebase is the worst product I have ever used (as expected for a Google product). So we never ended up getting that to work. Whatever, we still have some sort of an app to show, and we can waffle about how it fits with "travelling through time". Something about "fossils being old and organic time capsules". Yeah, that sounds good.
 
@@ -147,7 +147,7 @@ In the next 2 hours, I developed a map feature, where if a user discovers a foss
 
 {% include image.html url="images/fossileyesmap.png" description="Terrible image of fossileyes map" %}
 
-Not only that, but now we actually had a reason as to why this app fits the "travelling through time brief". As the map stored the timestamp, you cuold see how fossil distributions change over time due to factors like climate change. 
+Not only that, but now we actually had a reason as to why this app fits the "travelling through time brief". As the map stored the timestamp, you could see how fossil distributions change over time due to factors like climate change. Our web app actually had real value now!
 
 In hindsight, if we just focused our app on that specfic feature, adding like a cloropleth map and a year slider or something that wouldve been a way better idea. Oh well.
 
